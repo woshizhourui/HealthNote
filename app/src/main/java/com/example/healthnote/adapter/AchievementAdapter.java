@@ -5,7 +5,7 @@ import android.view.View;
 
 import com.example.healthnote.R;
 
-public class achievement extends MyRecyclerAdapter<TxtAndChooseBean>{
+public class AchievementAdapter extends MyRecyclerAdapter<TxtAndChooseBean>{
     public AchievementAdapter(Context context, List<TxtAndChooseBean> mList, int mLayoutId) {
         super(context, mList, mLayoutId);
     }
